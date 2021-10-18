@@ -1,0 +1,23 @@
+{
+  "name": "verisuresensormonitor",
+  "version": "0.0.1",
+  "description": "Verisure Sensor Monitors that temperture and other information from Verisure and saves to Prometheus Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrafanaSetup/verisureSensorMonitor.git"
+  },
+  "author": "Linus Romland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrafanaSetup/verisureSensorMonitor/issues"
+  },
+  "homepage": "https://github.com/GrafanaSetup/verisureSensorMonitor#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "verisure": "^4.1.0"
+  }
+}
